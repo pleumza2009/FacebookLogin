@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         btn_login.setOnClickListener {
 
            signIn()
-
+            println(100)
             val intent = Intent(this, ShowActivity::class.java)
             startActivity(intent)
 
