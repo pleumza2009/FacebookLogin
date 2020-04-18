@@ -33,6 +33,9 @@ class MainActivity : AppCompatActivity() {
 
            signIn()
             println(100)
+            println(50)
+            println("sgdfgdfgdfgdfgd")
+            print("fsffgsfgdfg")
             val intent = Intent(this, ShowActivity::class.java)
             startActivity(intent)
 
